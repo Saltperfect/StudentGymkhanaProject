@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "963843423977",
+    "project_id": "firebase-gymkhana-iiti"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963843423977:android:53cccef2ffeebe22",
+        "android_client_info": {
+          "package_name": "in.ac.iiti.gymakhanaiiti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963843423977-q5p427mdb70c0qstl2uhepd5e92ejeca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.ac.iiti.gymakhanaiiti",
+            "certificate_hash": "A6991E712F8B7C38E9396F942C28CBBE3395EB5C"
+          }
+        },
+        {
+          "client_id": "963843423977-79fueh54nr0okq9tj9k8aeg12cb519bp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3u8gKDuYdEm4MRdti_o3D8z289ndpb2c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

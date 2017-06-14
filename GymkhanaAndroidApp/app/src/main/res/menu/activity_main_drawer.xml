@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_news_events"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="@string/nav_news_and_events" />
+        <item
+            android:id="@+id/nav_gymkhana_team"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/nav_gymkhana_team" />
+
+        <item
+            android:id="@+id/nav_technical_clubs"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/nav_technical_clubs" />
+
+        <item
+            android:id="@+id/nav_cultural_club"
+            android:icon="@drawable/ic_directions_walk_black_24dp"
+            android:title="@string/nav_cultural_clubs" />
+        <item
+            android:id="@+id/nav_photo_gallery"
+            android:icon="@drawable/ic_photo_library_black_24dp"
+            android:title="@string/nav_photo_gallery" />
+        <item
+            android:id="@+id/nav_hostel"
+            android:icon="@drawable/ic_local_hotel_black_24dp"
+            android:title="@string/nav_hostel" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_contact_mail_black_24dp"
+            android:title="@string/nav_contacts" />
+        <item
+            android:id="@+id/nav_placements"
+            android:icon="@drawable/ic_business_center_black_24dp"
+            android:title="@string/nav_placement" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="@string/nav_about" />
+            <item
+                android:id="@+id/nav_contribute"
+                android:title="Contribute" />
+            <item
+                android:id="@+id/nav_log_out"
+                android:title="@string/nav_logout" />
+        </menu>
+    </item>
+
+</menu>

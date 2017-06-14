@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f78100</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#00897b</color>
+    <color name="transparent">#00FFFFFF</color>
+    //__________________
+    <color name="textBackground">#F5F5F5</color>
+    <color name="listTextColor">#000000</color>
+    <color name="listitemtouched">#7E57C2</color>
+    <color name="listBackground">#ffffff</color>
+    <color name="tabtext">#9E9E9E</color>
+    <color name="tabselected">#ffffff</color>
+    <color name="largefonts">#FFEE58</color>
+    <color name="smallfonts">#ffffff</color>
+    //_______________________
+
+
+    //***********discussion_colors
+    <color name = "upvote_color">#ff4500</color>
+    <color name="downvote_color">#7092f9</color>
+    <color name="default_text_color">#cbcbcb</color>
+    <color name="discussion_nav_list_item_text_color">#000000</color>
+    <color name="link_color">#0000EE</color>
+</resources>

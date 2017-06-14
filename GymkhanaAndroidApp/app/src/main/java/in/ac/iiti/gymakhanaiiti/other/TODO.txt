@@ -1,0 +1,14 @@
+#show progress when uploading images
+
+#resize images to decrease the size while uploading;
+
+#option to add links
+
+#create your own web view to open links as android system crashes while opening links;
+
+#make option to make groups dynamically any topic , people will just follow them if they like it;
+
+#make option to attach pdf, docs, xlxs, ppt;
+
+#make option to show videos
+

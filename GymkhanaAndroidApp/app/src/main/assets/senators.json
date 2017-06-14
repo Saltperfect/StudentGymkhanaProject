@@ -1,0 +1,107 @@
+[
+ {
+   "SrNo": 1,
+   "senator post": "Btech 2nd year CSE",
+   "senator name": "Kunal Gupta",
+   "mobile": 9971918360,
+   "email id": "cse150001015@iiti.ac.in"
+ },
+ {
+   "SrNo": 2,
+   "senator post": "Btech 2nd year ME",
+   "senator name": "Prateek   Kumar Singh",
+   "mobile": 9654359887,
+   "email id": "me150003026@iiti.ac.in"
+ },
+ {
+   "SrNo": 3,
+   "senator post": "Btech 2nd year EE",
+   "senator name": "Ayush Soni",
+   "mobile": 9907568686,
+   "email id": "ee150002009@iiti.ac.in"
+ },
+ {
+   "SrNo": 4,
+   "senator post": "Btech 3rd year EE",
+   "senator name": "Sumesh kaul",
+   "mobile": 9723456122,
+   "email id": "ee140002034@iiti.ac.in"
+ },
+ {
+   "SrNo": 5,
+   "senator post": "Btech 4th year CSE",
+   "senator name": "Tilak Lodha",
+   "mobile": 9589498954,
+   "email id": "cse130001037@iiti.ac.in"
+ },
+ {
+   "SrNo": 6,
+   "senator post": "Btech 4th year ME",
+   "senator name": "Vivek Khokhar",
+   "mobile": 8349462767,
+   "email id": "me130003039@iiti.ac.in"
+ },
+ {
+   "SrNo": 7,
+   "senator post": "Btech 4th year EE",
+   "senator name": "Arpit Nama",
+   "mobile": 8349462062,
+   "email id": "ee130002004@iiti.ac.in"
+ },
+ {
+   "SrNo": 8,
+   "senator post": "MSc ",
+   "senator name": "Manjeet",
+   "mobile": 9671527252,
+   "email id": "msc1503131008@iiti.ac.in"
+ },
+ {
+   "SrNo": 9,
+   "senator post": "MTech",
+   "senator name": "Vijay Choyal",
+   "mobile": 9303505188,
+   "email id": "mt1502103009@iiti.ac.in"
+ },
+ {
+   "SrNo": 10,
+   "senator post": "PhD CSE",
+   "senator name": "Om Prakash Patel ",
+   "mobile": 8817996929,
+   "email id": "phd1301201003@iiti.ac.in"
+ },
+ {
+   "SrNo": 11,
+   "senator post": "PhD ME+MS",
+   "senator name": "Vishal Sharma",
+   "mobile": 9871242825,
+   "email id": "phd1401203008@iiti.ac.in"
+ },
+ {
+   "SrNo": 12,
+   "senator post": "PhD EE",
+   "senator name": "Ravi Kumar",
+   "mobile": 7415288337,
+   "email id": "phd1501102005@iiti.ac.in"
+ },
+ {
+   "SrNo": 13,
+   "senator post": "PhD Phy+Astro+Math",
+   "senator name": "Md Samsul Islam",
+   "mobile": 9046675029,
+   "email id": "phd1401251004@iiti.ac.in"
+ },
+ {
+   "SrNo": 14,
+   "senator post": "PhD Ch+BSBE",
+   "senator name": "Vinay Sharma",
+   "mobile": 9039458212,
+   "email id": "phd1301271003@iiti.ac.in"
+ },
+ {
+   "SrNo": 15,
+   "senator post": "PhD HSS",
+   "senator name": "Arun Kumar Bairwa",
+   "mobile": 8818899162,
+   "email id": "phd1501161001@iiti.ac.in"
+ }
+]

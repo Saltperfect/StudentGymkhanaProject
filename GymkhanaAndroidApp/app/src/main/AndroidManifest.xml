@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.ac.iiti.gymakhanaiiti">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/official_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TechnicalClubs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CulturalClubs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AboutClubActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PhotoGalleryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.NewsAndEventsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DiscussionActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CommentActivity"
+            android:windowSoftInputMode="stateVisible" /> <!-- to show keyboard on acitivity start -->
+
+        <activity android:name=".activity.SinglePostActivity" />
+        <activity
+            android:name=".activity.CreatePostActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".activity.ImageZoomInZoomOutActivity" />
+        <activity android:name=".activity.MessMenuActivity" />
+
+        <receiver
+            android:name=".BroadcastReceivers.MessMenuAlarmReceiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
+    </application>
+
+</manifest>

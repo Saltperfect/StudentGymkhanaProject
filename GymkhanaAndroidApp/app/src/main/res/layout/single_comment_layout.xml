@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:layout_marginBottom="2dp"
+    android:background="#f8f8f8"
+    android:id="@+id/full_comment_layout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/comment_author_layout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#909090"
+            android:id="@+id/comment_author_name_TV"
+            android:text="Ankit Gaur"/>
+        <View
+            android:layout_width="3dp"
+            android:layout_height="3dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/seperator_dot"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#909090"
+            android:text="Today, 6:31 am"
+            android:id="@+id/comment_time_TV"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comment_content_TV"
+        android:textColor="#202020"
+        android:text=""
+        />
+    <!-- action layout containing vote , comment and views icon -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:weightSum="2">
+        <!--voting layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:id="@+id/upvote_comment_layout"
+            android:layout_weight="1"
+            android:gravity="center">
+            <in.ac.iiti.gymakhanaiiti.views.UpvoteImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/discussion_upvote_icon"
+                android:padding="2dp"
+                android:id="@+id/upvote_button"/>
+            <in.ac.iiti.gymakhanaiiti.views.VotesTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:id="@+id/numVotesTV"
+                android:paddingRight="16dp"
+                android:maxEms="4"
+                android:textColor="#cbcbcb"
+                android:text="45"/>
+        </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="16dp"
+            android:background="#abcbcbcb"
+            android:layout_gravity="center_vertical"
+            />
+
+        <!-- *** reply layout ** -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:id="@+id/comment_reply_layout"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/discussion_comment_reply_icon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#cbcbcb"
+                android:id="@+id/replyTV"
+                android:text="reply"
+                android:layout_marginLeft="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

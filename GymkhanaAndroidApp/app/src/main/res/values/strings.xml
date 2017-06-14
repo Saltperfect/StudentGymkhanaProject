@@ -1,0 +1,76 @@
+<resources>
+    <string name="pass_key_store">ankit123</string>
+    <string name="alias">aliasGymKeyStore</string>
+    <string name="app_name">Student Gymakhana IITI</string>b
+    <string name="action_settings">Settings</string>
+
+    //GOOGLE Sign IN __________________________________________________________________________
+    <string name="btn_logout_from_google">Logout</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="loading">Loading....</string>
+
+
+    //Navigation Drawer ________________________________________________________________________
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_news_and_events">News And Events</string>
+    <string name="nav_gymkhana_team">Student Gymkhana Senate</string>
+    <string name="nav_technical_clubs">Technical Clubs</string>
+    <string name="nav_cultural_clubs">Cultural Clubs</string>
+    <string name="nav_photo_gallery">Photo Gallery</string>
+    <string name="nav_hostel">Hostels</string>
+    <string name="nav_contacts">Contacts</string>
+    <string name="nav_placement">Placement Cell</string>
+    <string name="nav_social_works">Social Works</string>
+    <string name="nav_about">About</string>
+    <string name="nav_logout">Log Out</string>
+
+    <string name="search_title">Search Contacts</string>
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>News And Events</item>
+        <item>Student Gymkhana Senate</item>
+        <item>Technical Clubs</item>
+        <item>Cultural Clubs</item>
+        <item>Photo Gallery</item>
+        <item>Hostels</item>
+        <item>Contacts</item>
+        <item>Social Works</item>
+        <item>Placement Cell</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="check_for_updatae">Check For Update</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+
+    <!-- dicussion *************************-->
+    <string name="action_save_post">Save Post</string>
+    <string name="action_report_post">Report</string>
+    <string name="action_edit_post">Edit Post</string>
+    <string name="action_delete_post">Delete</string>
+
+    _____________________________________________________________________________________________________________________
+
+    <string name="contribute_description">
+        If you are interested to contribute to the app, you can contribute in following ways:\n
+        1. Contribute to the php+slim rest api for the discussion part of the app. You can view it here http://github.com/ankit-gaur/Dashboard.\n
+        2. Contribute to android  app. There are many things which can be added in this app like rating particular menu of a day, adding functionality to enable moderators to directly post news from the app, improve ui/ux of the app, update info about student gymkhana and most interesting to complete discussion part of the app.
+        Visit the given below discussion activity button to view under development discussion part.\n
+        If you want to contribute, you can contact us on whatsapp 9522559930. We will describe you overall working of the app, and also the backend part. If you are not familiar with any of the php and android development but want to contribute then no worries, We can guide you with whatever knowledge we have.\n
+        There are many things you can learn as a contributor like android and php development,SQL, VCS, ui/ux skills, networking etc.\n
+        You can always give suggestions about security and architecture of the android and web app.
+    </string>
+
+</resources>

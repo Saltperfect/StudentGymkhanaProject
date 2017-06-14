@@ -1,0 +1,51 @@
+{  
+"month" : "March",
+"Monday":{
+                   "Breakfast":"Methi thepla, Aloo Sabji , Boiled egg",
+                   "Lunch":"Jeera rice, Rajma, Tuar dal, Veg achari baingan, Nimbu paani , Fruit",
+                   "High Tea":"Chole-Kulche + Green chutney + Red chutney",
+                    "Dinner":"Fried rice, Masoor dal, Chole ki sabzi,  Aloo gobhi, Puri, Kheer, Egg curry" },
+
+"Tuesday":{
+                   "Breakfast":"Vada, Sambhar, Coconut chutney , Omellette",
+                   "Lunch":"Rice, Chana Dal, Bhindi masala, Curry Pakoda, Nimbu Pani, Fruit",
+                   "High Tea":"Pasta + Sauce",
+                    "Dinner":"Veg biryani, Tuar dal, Malai kofta, Corn palak, Vanila/Strawberry ice cream" },
+
+"Wednesday":{
+                   "Breakfast":"Aloo paratha, Curd, Boiled egg",
+                   "Lunch":"Jeera Rice, Dal fry, Aloo Shimla mirch, Desi chana , Chaanch + Fruit",
+                   "High Tea":"Samosa/Mung Kachori * 2+ Green chutney + Red chutney",
+                    "Dinner":"Plain rice, Tuar dal, Punjabi paneer, Bhindi masala ,Moong dal ka halwa , Punjabi chicken" },
+
+"Thursday":{
+                   "Breakfast":"Idly , Coconut chutney, Sambhar ,Bhurji",
+                   "Lunch":"Rice , Tuar Dal, Mixed veg, Rajma, Curd , Fruit",
+                   "High Tea":"Finger chips (less oily),Sauce",
+                    "Dinner":"Jeera rice, Dal makhani, Jeera Aloo, Dry Manchurian, Sewaiyan , Egg curry" },
+
+"Friday":{
+                   "Breakfast":"Onion paratha, Curd , Boiled egg",
+                   "Lunch":"Rice, Dal fry ,  Aloo baingan , Chhole Sabji , Nimbu pani + Fruit",
+                   "High Tea":"Moong dal pakode + Green chutney + Red chutney",
+                    "Dinner":"Fried rice, Mixed dal,  Matar paneer, Aloo paalak, Gulaabjamun, Butter chicken" },
+
+"Saturday":{
+                   "Breakfast":"Puri, Aloo sabji , Egg bhurji",
+                   "Lunch":"Jeera rice, Rajma, Chana dal,Sweet corn, palak ,Curd + Fruit",
+                   "High Tea":"Paav Bhaji,Sauce",
+                    "Dinner":"Plain rice, Dal makhni, Bhindi aloo, Pattagobhi-matar, Vanilla ice cream+ Brownie cake (eggless)*2 , Egg biryani" },
+
+"Sunday":{
+                   "Breakfast":"Poha, Sev,lemon, Chopped onion, Jalebi, Sauce, Omelette",
+                   "Lunch":"Jeera Rice, Chhole , Aloo gobhi, Tuar dal,  Mixed fruit raita",
+                   "High Tea":"Chinese patties * 2 + Sauce",
+                    "Dinner":"Fried rice, Tuar Dal, Dry manchurian, Chilly Paneer, Boondi Raita, Besan  burfi * 2 , Chicken Biryani" },
+
+"Compulsory Items":{
+                   "Breakfast":"Milk, Tea, Coffee, Bourn vita / Sprouts Bread, Jam, Amul Butter, Sugar, Pickle",
+                   "Lunch":"Salad, Green Chillies, Lemon, Pickle, Fryums, Chapatti, Pickle, Sauf & Mishri",
+                   "High Tea":"Tea, Milk, Coffee, Sugar",
+                    "Dinner":"Salad, Lemon, Green chillies, Pickle,  Papad, Chapati, Sauf & Mishri" }
+}
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:background="#444444">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="How do I contribute?"
+            android:textSize="20dp"
+            android:id="@+id/heading_dialog_tv"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:lineSpacingExtra="1dp"
+                    android:layout_marginRight="16dp"
+                    android:id="@+id/descriptionTv"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/contribute_description"
+                    />
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:id="@+id/discussionActivityButton"
+                    android:text="Discussion Activity"
+                    android:backgroundTint="@color/colorAccent"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="24dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#444444"
+        android:text="OK"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/dialog_OK_button"
+        />
+</LinearLayout>

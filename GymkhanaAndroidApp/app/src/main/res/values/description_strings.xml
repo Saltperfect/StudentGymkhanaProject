@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hostel_description">
+<![CDATA[
+<h2 style="font-size:2.5em" ><font color="#EF6c00">IIT INDORE HOSTEL  </font></h2>
+<h2 style="font-size:2em;text-align:left;margin:0;">Simrol Campus Hostels :</h2>
+						<p>The hostels at IITI are probably the best any student pursuing
+						 studies in India could wish for. Aesthetically pleasing and located in close proximity to the Academic buildings,
+						  these hostels have been built keeping the comfort of students as the foremost priority. As far as the security is
+						   concerned, each hostel block is scrutinized by a guard 24x7. There are lady guards for the girls hostel. The wardens
+						   are always ready to sort out any issues that the students face. The rooms are spacious and students enjoy a plethora
+						   of facilities here, that not only save their time but also make them feel more comfortable.
+						   </p></font>
+						<br>
+						<h2 style="font-size:2em;text-align:left;margin:0;">Mess :</h2>
+						<p>The mess at IIT Indore serves a wide range of delicacies which perfectly reflect the diversity
+						of the numerous places that our students arrive from. The mess has a pre-determined menu that is revised
+						every month and passed only by the consent of the students. The mess serves breakfast, lunch, snacks
+						in the evening(high tea) and dinner according to a daily schedule. The menu for each day is different,
+						which prevents monotonicity. Along with the variety they provide, our chefs are prudent to provide the
+						best-quality, nutritious food, as they know very well:
+						<br>	"A healthy mind in a healthy body!"
+						</p>
+						<br>
+						<h2 style="font-size:2em;text-align:left;margin:0;">Healthcare Centre :</h2>
+						<p>The healthcare centre at IIT Indore is
+						 equipped with modern medical instruments and is functional 24x7.
+						  The doctors and nurses treat the members of the IITI community with utmost care.
+						  An ambulance is available at the healthcare at all times which takes people from the
+						   campus to the hospital in the event of an emergency.
+						   </p>
+
+						<br><br>
+
+						<header>
+						<h2 style="font-size:2.5em;margin:0;">Facilities</h2>
+						</header>
+						<ul>
+							<li>Spacious.</li>
+							<li>Completely secure.</li>
+							<li>State of the art design.</li>
+						    <li>Among the best IIT hostels.</li>
+						    <li>Round the clock water and electricity supply.</li>
+							<li>Stratigically connected to Health Care Center.</li>
+						</ul>
+]]></string>
+
+ <string name="gen_sec_description"><![CDATA[
+
+<p>The president leads the Students` Gymkhana and co-ordinates with all the General Secretaries to ensure smooth
+ functioning of the Gymkhana and its activities. It also forms the link between the institute authorities in major matters.
+ There are two sectors directly under him:
+</p>
+ <h2><font color="#EF6c00">LA FRESCO</font></h2>
+ <p> The Student Co-operative Store falls under his responsibility to provide all the required institute permissions,
+ transport arrangements (with the help of General Secretary, Transport Affairs) and any other support, if required, form
+ the institute side, and maintain a proper relation between the two bodies and appropriately manage the store without
+ creating any inadequacy towards the student requirements.
+ </p>
+<h2><font color="#EF6c00">Non-Technical and Non-Cultural Clubs</font></h2>
+<p> Social welfare Clubs and similarly all non-technical and non-cultural clubs come under the purview
+of the president and he is responsible for providing the required institute support and fulfil any other requirements.
+</p>
+<h2><font color="#EF6c00">Acting Mess Secretary</font></h2>
+<p>The main job of the General Secretary, Mess Affairs is to ensure cleanliness in the mess premises specially in the cooking region and ensure that the caterer follows all the norms mentioned in the contract. He might appoint a mess committee directly under
+him and distribute timely duties to its members regarding the same.
+He is also responsible for rotating the Mess Menu.</p>
+
+ ]]></string>
+
+    <string name="research_sec_description"><![CDATA[
+                         <h2><font color="#EF6c00">RESEARCH AFFAIRS</font></h2>
+									<p>With IIT Indore rapidly becoming a highly advanced national research hub in India, the number of PhD students joining every month is ever increasing. The General Secretary, Research Affairs represents all the research scholars at various platforms and brings forward their needs or complaints to the institute.</p>
+    ]]></string>
+
+ <string name="mess_sec_description"><![CDATA[
+<h2><font color="#EF6c00">MESS AFFAIRS</font></h2>
+									<p>The main job of the General Secretary, Mess Affairs is to ensure cleanliness in the mess premises specially in the cooking region and ensure that the caterer follows all the norms mentioned in the contract. He might appoint a mess committee directly under him and distribute timely duties to its members regarding the same. He is also responsible for rotating the Mess Menu.</p>
+
+ ]]></string>
+ <string name="cultural_sec_description">
+     <![CDATA[
+<h2><font color="#EF6c00">CULTURAL AFFAIRS</font></h2>
+								<p>The General Secretary, Cultural Affairs has the most diligent position in the Students` Gymkhana with events going on all round the year and the huge amount of ground work and preparation waiting to be done. It co-ordinates with all the Cultural Clubs` Heads and maintains a colourful, eventful and a celebrating environment in the institute. The Committees under him are:</p>
+								<h2><font color="#EF6c00">Cultural Committee</font></h2>
+								<p> The General Secretary, Cultural Affairs by default heads the Cultural Committee. The Committee consists of the Secretary and 5 shortlisted members, appointed by the Committee head after a competent selection process. The committee is responsible, in case of a club event, to co-ordinate with the respective club head, under which the event is taking place, and ensure for proper organization of the event taking care of the logistics, transportation, mess transfer etc.</p>
+								<h2><font color="#EF6c00">All Cultural Clubs</font></h2>
+								<p>All the clubs, carrying out cultural activities in the institute, all come under his domain. It is his responsibility to co-ordinate with all the heads to ensure an eventful academic year.</p>
+
+     ]]>
+ </string>
+<string name="hostel_sec_description">
+    <![CDATA[
+<h2><font color="#EF6c00">HOSTEL AFFAIRS</font></h2>
+								<p>The General Secretary, Hostel Affairs takes care of all the hostel allotments, hostel equipment, housekeeping staff, hostel issues as well as is also responsible for applying a fine on the students, in cases of any damage to the institute property. He is also in-charge of the Student Recreation Hub and proper allocation of space and timings of various club activities in the SRH.</p>
+
+    ]]>
+</string>
+<string name="sports_sec_description">
+    <![CDATA[
+<h2> <font color="#EF6c00">SPORTS AFFAIRS</font></h2>
+								<p>The General Secretary, Sports Affairs takes care of all the sports facilities and respective permission. It is his duty to make all the sports equipment available and is also responsible for the maintenance of the same. He has to maintain all the records and conduct trials and selections for the Inter IIT Sports Meet.</p>
+								<h2><font color="#EF6c00">Sports Committee</font></h2>
+								<p>The Sports Committee consists of the sports` captains, the organizing team as well as the secretary himself. They look after organizing various sports competitions in the institute, as well as maintain a healthy sportsmanship spirit among the respective teams. It also ensures that regular practice sessions happen and are responsible for the performance of the team.</p>
+
+    ]]>
+</string>
+    <string name="scietech_description">
+        <![CDATA[
+      <h2><font color="#EF6c00">SCIENCE AND TECHNOLGY AFFAIRS</font></h2>
+								<p> The General Secretary, Academic Affairs, is responsible for satisfying all the academic demands and
+								    requirements of the student body, by creating a trustful relationship with the faculty members and
+									Head of Schools. Other major duties under him are to conduct regular feedback from the students about
+									the courses and making appropriate changes in time-table and policies as and when required as well
+									as representing the student body in the IUGC meetings and put forward the issues.</p>
+								<h2><font color="#EF6c00">Technical Committee</font></h2>
+								<p>It comprises of all the technical clubs` heads and the Secretary. It has to carry out competitions and
+									technical workshops in the institute by efficiently co-ordinating with the Cultural Committee as well as
+									 DoCM.</p>
+								 <h2><font color="#EF6c00">Student Internet Team</font></h2>
+								 <p>It has the most important role of maintaining the Internet connectivity in all the hostel units and addressing
+								  various problems faced by the students regarding the same and if required, approaching the institute authorities.</p>
+        ]]>
+    </string>
+</resources>

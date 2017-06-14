@@ -1,0 +1,79 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#E0E0E0"
+android:fillViewport="true"
+android:id="@+id/scrollView"
+tools:context="in.ac.iiti.gymakhanaiiti.fragment.ContactsFragment" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HOSTEL STAFF"
+            android:backgroundTint="@color/colorAccent"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:clickable="true"
+           />
+    <ListView
+        android:id="@+id/hostelcontacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gymkhana Office"
+        android:backgroundTint="@color/colorAccent"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:layout_marginTop="16dp"/>
+    <ListView
+        android:id="@+id/gymkhana_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Club Heads"
+        android:backgroundTint="@color/colorAccent"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:layout_marginTop="16dp"/>
+    <ListView
+        android:id="@+id/club_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senators"
+        android:backgroundTint="@color/colorAccent"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:layout_marginTop="16dp"/>
+    <ListView
+        android:id="@+id/senators_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+</LinearLayout>
+</ScrollView>

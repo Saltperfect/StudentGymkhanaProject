@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="robotics_club_des"><![CDATA[
+    	<h2>Robotics Club, IIT Indore</h2>
+						</header>
+						<p>Robotics Club of IIT Indore, group created to bring out the creativity and imagination of students andto give them chance to become familiar with continuously evolving world of robotics. The man motive of this club is to provide the students with basic knowledge of robotics and give them a chance to make some robots on their own so that they can find their interest in the field.</p>
+						<p>Our club is also responsible for conducting various events in Fluxus’16 and providing man power for various other events. Events like Aquabotics, Bot-The builder, Robo-race, GrabIt, Robo-wars were conducted by the club, of which Robo-wars was a huge success. Students from various colleges showed a huge interest in these events and large participation by them was recorded in these events.</p>
+						<h3>Follow the Robotics club on facebook click here:
+						 <a href="https://www.facebook.com/groups/roboticsclub.iiti/" style="color:blue;"> roboticsclub.iiti</a></h3>
+
+    ]]></string>
+
+    <string name="programming_club_des"><![CDATA[
+    <h2>Programming Club, IIT Indore</h2>
+						</header>
+						<h3>“Eat, Sleep, Code, Repeat”</h3>
+						<p>Programming Club (commonly known as PClub)
+						is a community of students enthusiastic about coding, Algorithmic Programming,
+						App development, Web Designing and all other aspects of programming. It works under the guidance
+						of the Science and Technology Council, IIT Indore which is a part of The Students\'
+						Gymkhana, the student body of the institute. Usually headed by Junior Undergraduate students,
+						 the club is responsible for conducting programming and development events for the campus residents.
+						 With its motto: “Eat, Sleep, Code”, PClub strives to inculcate and foster the culture of programming
+						 on the campus.</p>
+
+						<h3>Follow the Programming club on facebook click here:
+						 <a href="https://www.facebook.com/groups/pclubiiti/" style="color:blue;">pclubiiti</a></h3>
+    ]]></string>
+
+    <string name="electronics_club_des"><![CDATA[
+    <h2>Electronics Club, IIT Indore</h2>
+						</header>
+						<p>Our club provides a springboard for anyone who is interested in building circuits/systems, from basic to advanced. Electronics Club is for all those electronic maniacs who have the courage to accept the challenges in the field of hardware, who have the capabilities to turn imagination to reality and who have the patience to cope up with the surprises in offing for one in circuits and hardware functioning. Its mandate is to encourage tinkering among students.</p>
+						<p>Many projects have been developed in the club in the recent past, including a CID calculator, home automation and hyper­lapse moment capturing bot. Various lectures, workshops, projects as well as competitions throughout the year concerning both analog as well as digital electronics keep the calendar busy and the participants, learning.</p>
+						<h3>Follow the Electronics club on facebook click here:
+						 <a href="https://www.facebook.com/iitielectronicsclub/" style="color:blue;"> iitielectronicsclub</a></h3>
+    ]]></string>
+
+    <string name="astronomy_club_des"><![CDATA[
+    <h2>Astronomy Club, IIT Indore</h2>
+						</header>
+						<p>The astronomy club of IIT Indore is a club which seeks to create an atmosphere for fostering and nurturing the interest of the students regarding astronomy and astrophysics. It aims to expand the horizons of the students and develop a celestial passion among the students who seek knowledge in this field. The club helps the students to develop a better understanding of these mysterious forces in nature and what governs them. The major motivation of the club is to gather together all the enthusiasts of astronomy and work together; so that we may understand and help others understand the innate beauty of the universe.</p>
+						<h3>Follow the Robotics club on facebook click here:
+						 <a href="https://www.facebook.com/groups/roboticsclub.iiti/" style="color:blue;">........</a></h3>
+
+    ]]></string>
+    <string name="unmanned_club_des"><![CDATA[
+    <h2>Unmanned Tech Club, IITI</h2>
+						</header>
+						<p> We will update soon....</p>
+						<h3>Follow Unmanned tech club on facebook click here:
+						 <a href="https://www.facebook.com/groups/iitielectronicsclub" style="color:blue;">utc.iiti</a></h3>
+
+
+
+    ]]></string>
+</resources>

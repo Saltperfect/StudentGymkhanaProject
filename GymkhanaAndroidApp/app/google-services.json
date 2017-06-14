@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "59857306287",
+    "firebase_url": "https://student-gymkhana-iiti-174f4.firebaseio.com",
+    "project_id": "student-gymkhana-iiti-174f4",
+    "storage_bucket": "student-gymkhana-iiti-174f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59857306287:android:53cccef2ffeebe22",
+        "android_client_info": {
+          "package_name": "in.ac.iiti.gymakhanaiiti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59857306287-mh1etiqpoj73hrm47u6767v553maopvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1OjF0wew8pUVd61I2t9AAl2aO1cm1k0Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59857306287-mh1etiqpoj73hrm47u6767v553maopvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

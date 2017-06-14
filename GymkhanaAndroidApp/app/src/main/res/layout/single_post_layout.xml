@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="2dp"
+        app:cardMaxElevation="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:id="@+id/post_main_layout"
+            android:orientation="vertical">
+
+            <!--auther info and post menu -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="8dp"
+                android:paddingBottom="6dp">
+                <!--profile pic -->
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/acount_pic"
+                    android:id="@+id/auther_profilepic"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="16dp"
+                    />
+                <!-- name and email -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8dp"
+                    android:clickable="true"
+                    android:id="@+id/auther_name_layout">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#a1a1a1"
+                            android:maxEms="25"
+                            android:textSize="14sp"
+                            android:text=""
+                            android:id="@+id/post_auther_name_TV"
+                            android:textStyle="bold"/>
+                        <View
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/seperator_dot"
+                            android:layout_margin="4dp"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#a1a1a1"
+                            android:maxEms="25"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:text=""
+                            android:id="@+id/post_time_TV"
+                            />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#a2a2a2"
+                        android:maxEms="30"
+                        android:id="@+id/post_auther_email_TV"
+                        android:text=""/>
+                </LinearLayout>
+
+                <!-- adding menu button -->
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"/>
+                <LinearLayout
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:id="@+id/post_menu_button_layout"
+                    android:gravity="center"
+                    android:background="@drawable/ripple_main_oval">
+                    <ImageButton
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerInside"
+                        android:clickable="false"
+                        android:src="@drawable/discussion_post_menu_icon"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--title of the post which can be null-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:id="@+id/post_title_TV"/>
+
+            <!-- body of the post -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_body_TV"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColorLink="@color/link_color"
+                android:text=""
+                android:autoLink="web"
+                android:maxLines="2"
+                android:ellipsize="end"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:id="@+id/post_preview_image"
+                android:layout_marginTop="4dp"
+                android:background="#e0e0e0"
+                android:src="@drawable/unmanned_club"
+                android:scaleType="centerCrop" />
+            /> <!-- http://stackoverflow.com/questions/11353973/whats-the-difference-between-imageview-scaletype-center-inside-and-fit-center#19286130 -->
+
+
+            <!-- action layout containing vote , comment and views icon -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:weightSum="3">
+
+                <!--voting layout -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:clickable="true"
+                    android:id="@+id/upvote_post_layout"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <in.ac.iiti.gymakhanaiiti.views.UpvoteImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/discussion_upvote_icon"
+                        android:padding="2dp"
+                        android:id="@+id/upvote_button"/>
+                    <in.ac.iiti.gymakhanaiiti.views.VotesTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="16dp"
+                        android:id="@+id/numVotesTV"
+                        android:paddingRight="16dp"
+                        android:maxEms="4"
+                        android:textColor="#cbcbcb"
+                        android:text="0"/>
+                    <in.ac.iiti.gymakhanaiiti.views.DownvoteImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:src="@drawable/discussion_downvote_icon"
+                        android:clickable="true"
+                        android:id="@+id/downvote_button"
+                        android:visibility="gone"
+                        /><!--TODO implement downvote option if you want other wise downvote is not good-->
+
+                </LinearLayout>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="16dp"
+                    android:background="#abcbcbcb"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <!-- *** Comment Layout ** -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@drawable/ripple_main"
+                    android:clickable="true"
+                    android:id="@+id/post_commment_layout"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:src="@drawable/discussion_comment_icon"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#cbcbcb"
+                        android:maxEms="5"
+                        android:id="@+id/numCommentsTv"
+                        android:text="0"
+                        android:layout_marginLeft="8dp"/>
+                </LinearLayout>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="16dp"
+                    android:background="#abcbcbcb"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <!--*** Views layout **-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:clickable="true"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/discussion_views_icon"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxEms="4"
+                        android:textColor="#cbcbcb"
+                        android:layout_marginLeft="8dp"
+                        android:id="@+id/numViewsTv"
+                        android:text="0"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

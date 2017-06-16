@@ -6,24 +6,24 @@ An android app for student gymkhana IIT Indore containg information about variou
 ![screenshot](https://github.com/ankit-gaur/StudentGymkhanaProject/blob/master/screenshots/sc0.png?raw=true)
 
 
-![screenshot](https://github.com/ankit-gaur/StudentGymkhanaProject/blob/master/screenshots/sc1.png?raw=true)
+![screenshot](https://github.com/ankit-gaur/StudentGymkhanaProject/blob/master/screenshots/sc1.jpeg?raw=true)
 
 
-![screenshot](https://github.com/ankit-gaur/StudentGymkhanaProject/blob/master/screenshots/sc2.png?raw=true)
+![screenshot](https://github.com/ankit-gaur/StudentGymkhanaProject/blob/master/screenshots/sc2.jpeg?raw=true)
 
 
-![screenshot](https://github.com/ankit-gaur/StudentGymkhanaProject/blob/master/screenshots/sc3.png?raw=true)
+![screenshot](https://github.com/ankit-gaur/StudentGymkhanaProject/blob/master/screenshots/sc3.jpeg?raw=true)
 
 
-![screenshot](https://github.com/ankit-gaur/StudentGymkhanaProject/blob/master/screenshots/sc4.png?raw=true)
+![screenshot](https://github.com/ankit-gaur/StudentGymkhanaProject/blob/master/screenshots/sc4.jpeg?raw=true)
 
 
-![screenshot](https://github.com/ankit-gaur/StudentGymkhanaProject/blob/master/screenshots/sc5.png?raw=true)
+![screenshot](https://github.com/ankit-gaur/StudentGymkhanaProject/blob/master/screenshots/sc5.jpeg?raw=true)
 
 
-![screenshot](https://github.com/ankit-gaur/StudentGymkhanaProject/blob/master/screenshots/sc6.png?raw=true)
+![screenshot](https://github.com/ankit-gaur/StudentGymkhanaProject/blob/master/screenshots/sc6.jpeg?raw=true)
 
 
-![screenshot](https://github.com/ankit-gaur/StudentGymkhanaProject/blob/master/screenshots/sc7.png?raw=true)
+![screenshot](https://github.com/ankit-gaur/StudentGymkhanaProject/blob/master/screenshots/sc7.jpeg?raw=true)
 
 
